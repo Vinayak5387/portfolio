@@ -12,7 +12,7 @@ export default function Footer(){
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
 
         {/* Logo Section */}
-        <div>
+        <div className="group" >
           <Link href="/">
             <Image 
               className="brightness-0 invert mb-6" 
@@ -23,7 +23,7 @@ export default function Footer(){
             />
           </Link>
 
-          <div className="w-12 h-0.5 bg-amber-400 transition-all duration-500 hover:w-40"></div>
+          <div className="w-12 h-0.5 bg-amber-400 transition-all duration-500 group-hover:w-40"></div>
 
           <p className="text-sm mt-6 leading-relaxed text-gray-400">
             Designs That Speak, Art That Inspires.
